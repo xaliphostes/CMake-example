@@ -23,3 +23,15 @@ Main will generate a .exe and is linked (not statically) to MyLib.
 `nmake install`
 
 This command will compile and install the .dll and .exe in the `bin` directory, while the .lib will be placed in the `lib` folder.
+
+# Using Mingw
+
+See YouWol-Mingw on github for more info
+
+1. Launch the msys console and use Mingw as compiler (gcc)
+
+# Using Microsoft Visual Studio 'nmake'
+
+1. launch cmd.exe
+1. launch the ```vcvarsall.bat``` from the Visual studio installation , directory **VC** (usually in ```C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC```)
+2. go in the folder ```PROJECT/build``` and type ```cmake -G "NMake Makefiles" ..```
