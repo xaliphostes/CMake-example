@@ -3,4 +3,4 @@
 set_target_properties(mylib PROPERTIES PREFIX "")     # -------> No prefix
 
 ### Output path for the lib
-set(LIBRARY_OUTPUT_PATH "../../../bin/scripts/libs/")
+set(LIBRARY_OUTPUT_PATH "../../../bin/plugins/")
