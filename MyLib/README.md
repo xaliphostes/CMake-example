@@ -1,4 +1,4 @@
 
 ### Play with prefix lib name
-set_target_properties(Arche PROPERTIES PREFIX "")     # -------> No prefix
+set_target_properties(mylib PROPERTIES PREFIX "")     # -------> No prefix
 
